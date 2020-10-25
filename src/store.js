@@ -5,7 +5,7 @@ const bookmarks = [
       'url': 'https://www.curlsbot.com/',
       'description': 'Check product ingredients',
       'rating': 5
-  }
+  },
   {
     'id': '158432158dsafad',
     'title': 'Google',
@@ -14,5 +14,4 @@ const bookmarks = [
     'rating': 4
   }
 ]
-
 module.exports = bookmarks;
