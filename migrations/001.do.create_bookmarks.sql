@@ -1,4 +1,4 @@
-CREATE TYPE ratings AS ENUM (
+CREATE TYPE bookmarks_rating AS ENUM (
   '1',
   '2',
   '3',
@@ -11,6 +11,6 @@ CREATE TABLE bookmarks (
   title TEXT NOT NULL,
   url TEXT NOT NULL,
   description TEXT NOT NULL,
-  rating ratings NOT NULL 
+  rating bookmarks_rating NOT NULL 
 );
 
